@@ -14,6 +14,8 @@
 		CED550BB25D3225C007EA97E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED550B925D3225C007EA97E /* LaunchScreen.storyboard */; };
 		CED550C625D32260007EA97E /* HackwichFourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED550C525D32260007EA97E /* HackwichFourTests.swift */; };
 		CED550D125D32260007EA97E /* HackwichFourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED550D025D32260007EA97E /* HackwichFourUITests.swift */; };
+		CED550E125D32A19007EA97E /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED550E025D32A19007EA97E /* secondViewController.swift */; };
+		CED550E325D56624007EA97E /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED550E225D56624007EA97E /* thirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CED550CC25D32260007EA97E /* HackwichFourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackwichFourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CED550D025D32260007EA97E /* HackwichFourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichFourUITests.swift; sourceTree = "<group>"; };
 		CED550D225D32260007EA97E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED550E025D32A19007EA97E /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		CED550E225D56624007EA97E /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		CED550A425D32227007EA97E = {
 			isa = PBXGroup;
 			children = (
+				CED550E225D56624007EA97E /* thirdViewController.swift */,
 				CED550AF25D32229007EA97E /* HackwichFour */,
 				CED550C425D3225F007EA97E /* HackwichFourTests */,
 				CED550CF25D32260007EA97E /* HackwichFourUITests */,
@@ -99,6 +104,7 @@
 			children = (
 				CED550B025D32229007EA97E /* AppDelegate.swift */,
 				CED550B225D32229007EA97E /* ViewController.swift */,
+				CED550E025D32A19007EA97E /* secondViewController.swift */,
 				CED550B425D32229007EA97E /* Main.storyboard */,
 				CED550B725D3225B007EA97E /* Assets.xcassets */,
 				CED550B925D3225C007EA97E /* LaunchScreen.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CED550B325D32229007EA97E /* ViewController.swift in Sources */,
+				CED550E125D32A19007EA97E /* secondViewController.swift in Sources */,
+				CED550E325D56624007EA97E /* thirdViewController.swift in Sources */,
 				CED550B125D32229007EA97E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
